@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3102B99E25F6D7140005DAE2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102B99D25F6D7140005DAE2 /* CalendarViewController.swift */; };
+		3102B9A325F6D7D90005DAE2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102B9A225F6D7D90005DAE2 /* Task.swift */; };
+		3102B9A825F6E1CB0005DAE2 /* Subtask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102B9A725F6E1CB0005DAE2 /* Subtask.swift */; };
 		3182BC2A25B64AE80011E16D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182BC2925B64AE80011E16D /* AppDelegate.swift */; };
 		3182BC2C25B64AE80011E16D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182BC2B25B64AE80011E16D /* SceneDelegate.swift */; };
 		3182BC2E25B64AE80011E16D /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182BC2D25B64AE80011E16D /* TasksViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3102B99D25F6D7140005DAE2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3102B9A225F6D7D90005DAE2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3102B9A725F6E1CB0005DAE2 /* Subtask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtask.swift; sourceTree = "<group>"; };
 		3182BC2625B64AE80011E16D /* TaskMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3182BC2925B64AE80011E16D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3182BC2B25B64AE80011E16D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +111,13 @@
 				3182BC2B25B64AE80011E16D /* SceneDelegate.swift */,
 				3182BC2D25B64AE80011E16D /* TasksViewController.swift */,
 				3182BC5C25B64BB20011E16D /* CompletedTasksViewController.swift */,
+				3102B99D25F6D7140005DAE2 /* CalendarViewController.swift */,
 				3182BC2F25B64AE80011E16D /* Main.storyboard */,
 				3182BC3225B64AE90011E16D /* Assets.xcassets */,
 				3182BC3425B64AE90011E16D /* LaunchScreen.storyboard */,
 				3182BC3725B64AE90011E16D /* Info.plist */,
+				3102B9A225F6D7D90005DAE2 /* Task.swift */,
+				3102B9A725F6E1CB0005DAE2 /* Subtask.swift */,
 			);
 			path = TaskMaster;
 			sourceTree = "<group>";
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3102B99E25F6D7140005DAE2 /* CalendarViewController.swift in Sources */,
 				3182BC2E25B64AE80011E16D /* TasksViewController.swift in Sources */,
 				3182BC2A25B64AE80011E16D /* AppDelegate.swift in Sources */,
 				3182BC2C25B64AE80011E16D /* SceneDelegate.swift in Sources */,
+				3102B9A825F6E1CB0005DAE2 /* Subtask.swift in Sources */,
+				3102B9A325F6D7D90005DAE2 /* Task.swift in Sources */,
 				3182BC5D25B64BB20011E16D /* CompletedTasksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
